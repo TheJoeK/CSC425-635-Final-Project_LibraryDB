@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #66cdaa;
+	color: #eee;
+}
+
+header {
+	color: white;
+	background-color: #000000;
+	font-size: 1.5rem;
+	font-family: monospace;
+	font-weight: bold;
+	padding: 0;
+	padding-left: 1ex;
+	border-bottom: 1px solid black;
+	margin: 0;
+}
+
+header#site_header {
+	font-size: 300%;
+	font-weight: normal;
+}
+div#da_content {
+	display: table; /* The container is a table */
+	width: 100%;
+}
+
+main {
+	padding: 1ex;
+	background-color: #F5FFFA;
+	color: black;
+	display: table-cell; /* And main is a table cell */
+	margin: 0;
+	width: 80%;
+}
+
+.nav_selected {
+	font-weight: bold;
+}
+
+nav#navigator {
+	display: table-cell; /* And the navigation is a table cell. */
+	width: 15%;
+	height: 100%;
+	color: black;
+	background-color: #FFFFF0;
+	margin: 0;
+	border-right: 1px solid black;
+	padding-left: 1ex;
+	padding-right: 1ex;
+	vertical-align: top;
+}
+
+nav#navigator a{
+	font-weight: bold;
+}
+table {
+	width: 60%;
+}
+
+h2, label {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+footer {
+	padding: 1ex;
+	font-weight: bold;
+	clear: both;
+}
